@@ -13,7 +13,7 @@
       "src": "https://github.com/catppuccin/nvim"
     },
     "resonance.nvim": {
-      "rev": "002da7a23321bb863f8e008e3498db3a778c847e",
+      "rev": "57a0253018b07ef82152fb71995632056635fbdc",
       "src": "https://github.com/Imngzx/resonance.nvim"
     },
     "snacks.nvim": {
