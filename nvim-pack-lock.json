@@ -1,0 +1,24 @@
+{
+  "plugins": {
+    "ascetic.nvim": {
+      "rev": "7f1137f368e7807c751fc18834485931174d81d4",
+      "src": "https://github.com/Imngzx/ascetic.nvim"
+    },
+    "jisho.nvim": {
+      "rev": "2ff35082f3fb068c1a0c3f818938f9fdc7e43915",
+      "src": "https://github.com/Imngzx/jisho.nvim"
+    },
+    "nvim": {
+      "rev": "8edd468af4d63212b84d69b2ddb5ffc9023ef5eb",
+      "src": "https://github.com/catppuccin/nvim"
+    },
+    "resonance.nvim": {
+      "rev": "002da7a23321bb863f8e008e3498db3a778c847e",
+      "src": "https://github.com/Imngzx/resonance.nvim"
+    },
+    "snacks.nvim": {
+      "rev": "882c996cf28183f4d63640de0b4c02ec886d01f2",
+      "src": "https://github.com/folke/snacks.nvim"
+    }
+  }
+}
