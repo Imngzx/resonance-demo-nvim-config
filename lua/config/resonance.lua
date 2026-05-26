@@ -41,6 +41,7 @@ require('plugins.test')
 require('plugins.test2')
 require('plugins.test3')
 require('plugins.test4')
+require('plugins.test5')
 
 
 -- NOTE: must put this at the end of your init.lua!

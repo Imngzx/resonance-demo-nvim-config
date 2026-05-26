@@ -12,6 +12,11 @@
       "rev": "8edd468af4d63212b84d69b2ddb5ffc9023ef5eb",
       "src": "https://github.com/catppuccin/nvim"
     },
+    "nvim-treesitter": {
+      "rev": "4916d6592ede8c07973490d9322f187e07dfefac",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter",
+      "version": "'main'"
+    },
     "resonance.nvim": {
       "rev": "57a0253018b07ef82152fb71995632056635fbdc",
       "src": "https://github.com/Imngzx/resonance.nvim"
