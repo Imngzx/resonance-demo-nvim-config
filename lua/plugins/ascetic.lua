@@ -1,13 +1,10 @@
-local resonance = require('resonance')
-
-resonance.load({
-  plugin = 'https://github.com/Imngzx/ascetic.nvim',
+-- event: loads when a file is opened.
+return {
+  'https://github.com/Imngzx/ascetic.nvim',
   event = { 'BufReadPost', 'BufNewFile' },
-  -- event = { 'User', pattern = 'VeryLazy' },
   setup = function()
-    local Ascetic = require('ascetic')
-
-    Ascetic.setup({
+    local ascetic = require('ascetic')
+    ascetic.setup({
       enabled = true,
       smart_j_k = true,
       threshold = 10,
@@ -20,6 +17,6 @@ resonance.load({
         return insults[key] or ('Stop pressing `%s`!'):format(key)
       end,
     })
-    vim.keymap.set('n', '<leader>ua', Ascetic.toggle, { desc = 'Toggle Ascetic' })
-  end
-})
+    vim.keymap.set('n', '<leader>ua', ascetic.toggle, { desc = 'Toggle Ascetic' })
+  end,
+}

@@ -1,24 +1,24 @@
 {
   "plugins": {
     "ascetic.nvim": {
-      "rev": "7f1137f368e7807c751fc18834485931174d81d4",
+      "rev": "dce1c74cf8d5fb9f0348f8f0a762cf8a8a33ce37",
       "src": "https://github.com/Imngzx/ascetic.nvim"
     },
-    "jisho.nvim": {
-      "rev": "2ff35082f3fb068c1a0c3f818938f9fdc7e43915",
-      "src": "https://github.com/Imngzx/jisho.nvim"
-    },
-    "nvim": {
-      "rev": "8edd468af4d63212b84d69b2ddb5ffc9023ef5eb",
+    "catppuccin": {
+      "rev": "edefef779ab08ce1a4a404713e3012b0d202bd35",
       "src": "https://github.com/catppuccin/nvim"
     },
+    "futa-ri.nvim": {
+      "rev": "50ac2e9366530bbc8c1ab3845209906ed0c39a6b",
+      "src": "https://github.com/Imngzx/futa-ri.nvim"
+    },
     "nvim-treesitter": {
-      "rev": "4916d6592ede8c07973490d9322f187e07dfefac",
+      "rev": "52773f0d13a0c11d0c3ef33c14ab6ecc1c17148b",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter",
       "version": "'main'"
     },
     "resonance.nvim": {
-      "rev": "57a0253018b07ef82152fb71995632056635fbdc",
+      "rev": "f2dfb70941f62e4a846ff73195b514f1d90c2280",
       "src": "https://github.com/Imngzx/resonance.nvim"
     },
     "snacks.nvim": {
