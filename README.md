@@ -40,6 +40,7 @@ rm -rf ~/.config/resonance-demo ~/.local/share/resonance-demo \
 │       ├── ascetic.lua
 │       ├── colorscheme.lua
 │       ├── futa-ri.lua
+│       ├── icons.lua
 │       ├── jisho.lua
 │       ├── snacks.lua
 │       └── treesitter.lua
@@ -55,6 +56,7 @@ rm -rf ~/.config/resonance-demo ~/.local/share/resonance-demo \
 | `ascetic.lua` | `event = { 'BufReadPost', 'BufNewFile' }` | when a file is opened |
 | `treesitter.lua` | `event` + `build` | when a file is opened; `:TSUpdate` runs on install and update |
 | `futa-ri.lua` | `event = 'InsertEnter'` | on entering insert mode |
+| `icons.lua` | `lazy = true` | on `VeryLazy`, once the UI is up; also stands in for nvim-web-devicons |
 | `jisho.lua` | `cmd` + `keys` | on the first `:Jisho` or `<Space>tj` |
 
 The dashboard shows `resonance.stats()`: how many plugins are loaded and how

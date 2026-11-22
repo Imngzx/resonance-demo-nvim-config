@@ -12,6 +12,14 @@
       "rev": "50ac2e9366530bbc8c1ab3845209906ed0c39a6b",
       "src": "https://github.com/Imngzx/futa-ri.nvim"
     },
+    "jisho.nvim": {
+      "rev": "03853edc4cbec9e0c86bc1331835eb1fde57f22d",
+      "src": "https://github.com/Imngzx/jisho.nvim"
+    },
+    "mini.icons": {
+      "rev": "5d58117d176c133f4cb5585ec8cb3450881c89a0",
+      "src": "https://github.com/nvim-mini/mini.icons"
+    },
     "nvim-treesitter": {
       "rev": "52773f0d13a0c11d0c3ef33c14ab6ecc1c17148b",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter",
